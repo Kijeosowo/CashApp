@@ -1,0 +1,421 @@
+.Modal {
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 150vh;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    animation-name: Register;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in-out;
+    overflow: scroll;
+}
+
+@keyframes Register {
+    0%   {left: 300px; opacity: 0}
+    100% {left: 0px; opacity: 2}
+  }
+
+.Modal h1 {
+    color: white;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: 3rem;
+}
+
+.logomodal {
+    display: flex;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.logomodal h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 7%;
+    margin-left: 3%;
+}
+
+.logomodal img {
+    width: 50px;
+    height: 50px;
+}
+
+.Modalss {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .Modalss img {
+    margin-left: 2%;
+    margin-top: -1%;
+    z-index: 10;
+} */
+
+.logintimes {
+    display: flex;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+.logintimes a {
+    text-decoration: none;
+    margin-right: 10px;
+    padding-top: 15%;
+    color: white;
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+.logintimes a:hover {
+    color: #98A59F;
+}
+
+.hidden {
+    display: none;
+}
+
+.close-modal {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    z-index: 20;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.close-modal:hover {
+    background-color: #98A59F;
+}
+
+.container {
+    display: flex;
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.Wrap1 img {
+    margin-top: 11%;
+    margin-left: 10%;
+}
+
+.Wrap1 {
+    height: 150px;
+    background-color: #058189;
+    border-radius: 10px;
+    width: 170px;
+    border: none;
+}
+
+.Wrap2 img {
+    margin-top: 19%;
+    margin-left: 10%;
+}
+
+.Wrap2 {
+    height: 150px;
+    background-color: #B106CD;
+    border-radius: 10px;
+    width: 170px;
+    border: none;
+}
+
+.Wrap3 {
+    height: 150px;
+    background-color: #DD245C;
+    border-radius: 10px;
+    width: 170px;
+    border: none;
+}
+
+.Wrap3 img {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.Wrap4 {
+    height: 150px;
+    background-color: #DD245C;
+    border-radius: 10px;
+    width: 170px;
+    border: none;
+}
+
+.Wrap4 img {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.Wrap5 {
+    height: 150px;
+    background-color: #DD245C;
+    border-radius: 10px;
+    width: 170px;
+    border: none;
+}
+
+.Wrap5 img {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.Wrapper1 a {
+    line-height: 1.5;
+    color: #fff;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.Wrapper1 a:hover {
+    color: #98A59F;
+}
+
+.Wrapper1 p {
+    font-size: .8rem;
+    color: #98A59F;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.Wrapper2 {
+    margin-left: 5%;
+}
+
+.Wrapper2 a {
+    line-height: 1.5;
+    color: #fff;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.Wrapper2 a:hover {
+    color: #98A59F;
+}
+
+.Wrapper2 p {
+    font-size: .8rem;
+    color: #98A59F;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.Wrapper3 {
+    margin-left: 10%;
+}
+
+.Wrapper3 a {
+    line-height: 1.5;
+    color: #fff;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.Wrapper3 a:hover {
+    color: #98A59F;
+}
+
+.Wrapper3 p {
+    font-size: .8rem;
+    color: #98A59F;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.Wrapper4 {
+    margin-top: 5%;
+    margin-left: 0%;
+}
+
+.Wrapper4 a {
+    line-height: 1.5;
+    color: #fff;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.Wrapper4 a:hover {
+    color: #98A59F;
+}
+
+.Wrapper4 p {
+    font-size: .8rem;
+    color: #98A59F;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.Wrapper5 {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.Wrapper5 a {
+    line-height: 1.5;
+    color: #fff;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.Wrapper5 a:hover {
+    color: #98A59F;
+}
+
+.Wrapper5 p {
+    font-size: .8rem;
+    color: #98A59F;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.Taxexandco {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.Taxes {
+    display: flex;
+}
+
+/* .Taxex:hover {
+    color: #98A59F;
+} */
+
+.Taxes h2 {
+    color: #fff;
+    line-height: 1.5;
+}
+
+.Text {
+    margin-left: 5%;
+}
+
+.Text h2 {
+    font-weight: lighter;
+}
+
+.Text a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #98A59F;
+}
+
+.Text1 {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.Text1 h2 {
+    font-weight: lighter;
+}
+
+.Text1 a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #98A59F;
+}
+
+.Text2 {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.Text2 h2 {
+    font-weight: lighter;
+}
+
+.Text2 a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #98A59F;
+}
+
+.Taximg {
+    margin-top: 5%;
+}
+
+.Taximg img {
+    background-color: #058189;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    margin-top: 30%;
+}
+
+.Learnmore {
+    margin-top: 2%;
+}
+
+.Learnmore h2 {
+    color: #98A59F;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.Learnmore li {
+    list-style-type: none;
+    line-height: 2.5;
+    color: #fff;
+}
+
+.Learnmore li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Learnmore li a:hover {
+    color: #98A59F;
+}
+
+.Barcode {
+    float: right;
+    margin-right: -18%;
+    margin-top: -12%;
+    animation-name: Barcode;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes Barcode {
+    0%   {top: -300px; opacity: 0}
+    100% {top: 0px; opacity: 2}
+  }
+
+.Barcodeeeeeeee {
+    background-color: white;
+    margin-top: 10%;
+    display: flex;
+    border-radius: 10px;
+    padding: .5rem;
+    width: 45%;
+}
+
+.Barcodeeeeeeee p {
+    font-size: 1.2rem;
+    margin-top: 10%;
+    font-weight: bold;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.Barcodeeeeeeee img {
+    width: 50%;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+

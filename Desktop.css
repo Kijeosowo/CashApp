@@ -1,0 +1,222 @@
+@media all and (min-width:700px) and (max-width:1280px) {
+    /* label.logo {
+        font-size: 1.5rem;
+        padding-left: -5%;
+        margin-top: 2.5rem;
+      } */
+      .checkbtn {
+        display: block;
+        color: #fff;
+        margin-top: -2%;
+        font-size: 1.3rem;
+      }
+    
+      ul {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 120vh;
+        background: orangered;
+        top: 90px;
+        left: 100%;
+        text-align: center;
+        transition: all .5s;
+      }
+
+      nav ul li {
+        display: block;
+        margin: 30px 0;
+        margin-top: -2rem;
+      }
+
+      #check:checked ~ ul {
+        left: -50%;
+      }
+      
+      /* nav ul li a {
+        font-size: 1rem;
+        border-bottom: 1px solid #fff;
+        padding: 1rem;
+      } */
+
+      /* nav {
+        width: 100%;
+      }
+
+      nav img {
+        width: 30%;
+        margin-top: -15%;
+      } */
+
+      /* nav ul li a:hover {
+        color: #1dda0c;
+        transition: all .5s;
+      } */
+
+      /* .video h1 {
+        color: #fff;
+        font-size: 4rem;
+        text-align: center;
+        padding-top: -1%;
+        letter-spacing: 2px;
+        font-family: 'Monoton', cursive;
+        font-weight: lighter;
+    }
+
+    .h1 {
+        width: 150%;
+        margin-top: 15%;
+    } */
+
+    /* .fa-sharp {
+        width: 0%;
+        font-size: 2rem;
+        color: #fff;
+        margin-right: -30%;
+        margin-top: -2%;
+    } */
+
+    /*
+      #Instantly {
+        width: 150%;
+        padding-bottom: 15%;
+      }
+
+      .Instantlyyyyyy {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 15%;
+        padding-top: 15%;
+      }
+
+      .Instantlyyyyyy h1 {
+        font-size: 5rem;
+        text-align: center;
+      }
+
+      .Link {
+        margin-left: 5rem;
+        margin-top: 3%;
+      }
+
+      .Image img {
+        padding-top: 10%;
+        width: 100%;
+        margin-left: 0%;
+    }
+    */
+    /* ........................... */
+    /* #Saveon {
+        width: 150%;
+      }
+
+      .Saveonnnnn {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 15%;
+        padding-top: 15%;
+      }
+
+      .Saveonnnnn h1 {
+        font-size: 5rem;
+        text-align: center;
+      }
+
+      .Linksaveon {
+        margin-left: 5rem;
+        margin-top: 3%;
+      }
+
+      .Imagesaveon img {
+        padding-top: 10%;
+        width: 100%;
+        margin-left: 0%;
+    } */
+    /* ............................. */
+    /* #Bank {
+        width: 150%;
+        padding-top: 3%;
+      }
+
+      .Bankkkkkkk {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 15%;
+        padding-top: 15%;
+      }
+
+      .Bankkkkkkk h1 {
+        font-size: 5rem;
+        text-align: center;
+      }
+
+      .Linkbank {
+        margin-left: 5rem;
+        margin-top: 3%;
+      }
+
+      .Imagebank img {
+        padding-top: 10%;
+        width: 100%;
+        margin-left: 0%;
+    } */
+
+    /* ............................. */
+    /* #Believe {
+        width: 150%;
+        padding-top: 3%;
+      }
+
+      .Believeeeeeee {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 15%;
+        padding-top: 15%;
+      }
+
+      .Believeeeeeee h1 {
+        font-size: 5rem;
+        text-align: center;
+      }
+
+      .Linkbelieve {
+        margin-left: 5rem;
+        margin-top: 3%;
+      }
+
+      .Imagebelieve img {
+        padding-top: 10%;
+        width: 100%;
+        margin-left: 0%;
+    } */
+
+    /* ............................. */
+    /* #Stock {
+        width: 150%;
+        padding-top: 3%;
+      }
+
+      .Stockkkkkkkk {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 15%;
+        padding-top: 15%;
+      }
+
+      .Stockkkkkkkk h1 {
+        font-size: 5rem;
+        text-align: center;
+      }
+
+      .Linkstock {
+        margin-left: 5rem;
+        margin-top: 3%;
+      }
+
+      .Imagestock img {
+        padding-top: 10%;
+        width: 100%;
+        margin-left: 0%;
+    } */
+}
